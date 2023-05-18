@@ -710,7 +710,7 @@
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams(formData).toString(),
   })
-    .then(() => console.log("Form successfully submitted"))
+    .then(() => window.location.replace("http://magnum2023.netlify.app/success"))
     .catch((error) => alert(error));
 };
 
