@@ -650,7 +650,12 @@
       <div class="w-row">
         <div class="contactcont w-col w-col-7">
           <div class="w-form">
-            <form name="Contact Form" method="POST" action="/success" netlify>
+            <form 
+            name="Contact Form" 
+            method="POST" 
+            action="/success" 
+            netlify-honey-pot="contract-name"
+            netlify>
               <input type="text" class="textfield w-input" maxlength="256" name="name" data-name="Name" placeholder="Enter your name" id="name" required="">
               <input type="text" class="textfield w-input" maxlength="256" name="Company-Name" data-name="Company Name" placeholder="Enter your company name" id="Company-Name" required="">
               <input type="text" class="textfield w-input" maxlength="256" name="Phone-Number" data-name="Phone Number" placeholder="Phone Number" id="Phone-Number" required="">
